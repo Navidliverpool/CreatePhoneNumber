@@ -1,0 +1,1 @@
+createPhoneNumber = n => '(###) ###-####'.replace(/#/g, () => n.shift())
